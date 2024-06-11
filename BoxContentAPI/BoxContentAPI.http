@@ -1,0 +1,6 @@
+@BoxContentAPI_HostAddress = http://localhost:5198
+
+GET {{BoxContentAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
