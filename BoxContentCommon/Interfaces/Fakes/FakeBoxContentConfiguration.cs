@@ -17,7 +17,9 @@ namespace BoxContentCommon.Interfaces.Fakes
 
         public string GetConnectionString()
         {
-            return "mongodb://127.0.0.1:27017/?direct_connection=true&serverSelectionTimeoutMS=2000";
+            //return "mongodb://127.0.0.1:27017/?direct_connection=true&serverSelectionTimeoutMS=2000";            
+            //return "mongodb://mvc_admindb:asdfsdarfwqerqwef342@127.0.0.1:27017/?serverSelectionTimeoutMS=2000";
+            return "mongodb://192.168.0.125:27017/?direct_connection=true&serverSelectionTimeoutMS=2000";            
         }
 
         public string GetDatabaseName()
